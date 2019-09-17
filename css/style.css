@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url("/fonts/calibri.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Calibri Bold';
+    src: url("/fonts/CALIBRIB.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Calibri Bold';
+    src: url("/fonts/CALIBRII.ttf") format("ttf");
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+/*Start Info fenix*/
+/*.info-fenix {*/
+/*    background: url("../img/section.jpg") fixed no-repeat center center;*/
+/*    background-size: 100%;*/
+/*    background-size: cover;*/
+/*    color: #fff;*/
+/*    min-height: 720px;*/
+/*}*/
+
+/*.info-fenix__blackout {*/
+/*    height: 720px;*/
+/*    background: rgb(0, 0, 0, 0.3);*/
+/*}*/
+
+.info-fenix__h1 {
+    font-size: 5rem;
+}
+
+
+/*info fenix end*/
+
+
+/* about fond start*/
+.about-fond {
+    background: #262626;
+    color: #fff;
+    padding-bottom: 45px;
+    min-height: 770px;
+}
+
+.about-fond__ul {
+    margin-left: 15px;
+}
+
+.about-fond__ul:before {
+    content: "-";
+    margin-left: -10px;
+}
+
+
+/* about fond end*/
+
+
+
+/*START our-trustees*/
+.our-trustees {
+    min-height: 525px;
+}
+
+/*END our-trustees*/
+
+
+
+/* Style CARUSEL */
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(50%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-50%);
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+    transform: translateX(0);
+}
+/* Style CARUSEL */
+
+
+
+
+
+
+
+.bg-index-1 {
+    height: 300px;
+    background: url("../img/img_16.jpg")  no-repeat center center;
+    background-size: cover;
+    position: relative;
+    /*display: flex;*/
+}
+
+.bg-index-2 {
+    height: 300px;
+    background: url("../img/img_15.jpg")  no-repeat center center;
+    background-size: cover;
+    position: relative;
+    /*display: flex;*/
+}
+
+.bg-index-3 {
+    height: 300px;
+    background: url("../img/img_14.jpg")  no-repeat center center;
+    background-size: cover;
+    position: relative;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*display: flex;*/
+}
+
+.text-img {
+    display: none;
+}
+
+.bg-index-1:hover .text-img,
+.bg-index-2:hover .text-img,
+.bg-index-3:hover .text-img {
+    display: block;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.btn-p {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*  */
+
+
+/*@media only screen and (max-width: 769px) {*/
+
+/*    .col-md-5th {*/
+/*        width:100%;*/
+/*        float:none;*/
+/*        display:block;*/
+
+/*        -webkit-box-flex: 0;*/
+/*        -webkit-flex: 0 0 50%;*/
+/*        -ms-flex: 0 0 50%;*/
+/*        flex: 0 0 50%;*/
+/*        max-width: 50%;*/
+/*    }*/
+
+/*    .col-md-5th.col-sm-5th {*/
+/*        width:50%;*/
+/*        float:none;*/
+/*        display:block;*/
+
+/*        -webkit-box-flex: 0;*/
+/*        -webkit-flex: 0 0 50%;*/
+/*        -ms-flex: 0 0 50%;*/
+/*        flex: 0 0 50%;*/
+/*        max-width: 50%;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (min-width: 767px) {*/
+
+/*    .col-md-5th {*/
+/*        width:100%;*/
+/*        float:none;*/
+/*        display:block;*/
+
+/*        -webkit-box-flex: 0;*/
+/*        -webkit-flex: 0 0 100%;*/
+/*        -ms-flex: 0 0 100%;*/
+/*        flex: 0 0 100%;*/
+/*        max-width: 100%;*/
+/*    }*/
+
+/*    .col-md-5th.col-sm-5th {*/
+/*        width:100%;*/
+/*        float:none;*/
+/*        display:block;*/
+
+/*        -webkit-box-flex: 0;*/
+/*        -webkit-flex: 0 0 100%;*/
+/*        -ms-flex: 0 0 100%;*/
+/*        flex: 0 0 100%;*/
+/*        max-width: 100%;*/
+/*    }*/
+/*}*/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}

@@ -1,0 +1,21 @@
+.role__img-1 {
+    background: url("../img/img_22.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.role__img-2 {
+    height: 300px;
+}
+
+.role__img-3 {
+    background: url("../img/img_14.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.role__img-4 {
+    background: url("../img/img_23.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
